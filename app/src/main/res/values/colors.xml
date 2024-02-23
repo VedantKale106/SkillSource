@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="one">#F1EAFF</color>
+    <color name="two">#E5D4FF</color>
+    <color name="three">#DCBFFF</color>
+    <color name="four">#D0A2F7</color>
+
+
 </resources>
