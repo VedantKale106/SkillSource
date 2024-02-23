@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "475324204671",
+    "project_id": "skillsource-aab2e",
+    "storage_bucket": "skillsource-aab2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475324204671:android:afd5f241f79ba91596214a",
+        "android_client_info": {
+          "package_name": "com.vedant.skillsource"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN0IJT0xMZq7RKGuMjGCtU5CFNz91xoXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
