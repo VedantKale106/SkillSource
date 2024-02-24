@@ -75,15 +75,19 @@
                 android:layout_marginTop="20dp"/>
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
                 android:id="@+id/create"
-                android:text="Create Account"
+                android:layout_width="283dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button"
                 android:fontFamily="@font/timesbd"
-                android:textSize="18sp"
-                android:layout_marginTop="30dp"
-                android:backgroundTint="@color/two"
-                app:cornerRadius = "20dp"/>
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="Create Account"
+                android:textColor="#000000"
+                android:textSize="20sp" />
 
         </LinearLayout>
 
