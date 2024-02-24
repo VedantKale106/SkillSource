@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:id="@+id/idLLCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/idTVCourseName"
+                android:layout_width="217dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/timesbd"
+                android:padding="8dp"
+                android:text="Course Name"
+                android:textColor="@color/black"
+                android:textSize="40sp" />
+
+            <!--text view for our course duration-->
+            <TextView
+                android:id="@+id/idTVCourseDuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/timesbd"
+                android:padding="8dp"
+                android:text="100 rs "
+                android:textColor="#474444"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+        <!--text view for our course name-->>
+
+
+        <!--text view for our course description-->
+        <TextView
+            android:id="@+id/idTVCourseDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Course Description"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/edit"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Edit"
+            android:focusable="false"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
